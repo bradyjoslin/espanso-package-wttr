@@ -30,3 +30,7 @@ passive_key: CTRL
 ```
 
 Requires `curl`.
+
+## Package Details
+
+Repository: [https://github.com/bradyjoslin/espanso-package-wttr/](https://github.com/bradyjoslin/espanso-package-wttr/)
