@@ -12,7 +12,7 @@ Available replacement examples:
 | --------------------- | -------------------------------- | ------------------------------------- |
 | `:wttrin`             | Spring, United States: ⛅️ +80°F | Current location's current weather    |
 | `:moonphase`          | 🌕                               | Current phase of the moon             |
-| `:wttrat/{location}/` | dallas: ☀️ +88°F                 | Current weather in specified location |
+| `:wttrat/{location}/` | dallas: ☀️ +88°F                 | Current weather in specified location.  Separate words with `+` instead of spaces. |
 
 `:wttrat` uses [passive replacement](https://espanso.org/docs/passive-mode/), so it is triggered by highlighting the text and double tapping your configured passive key.
 
