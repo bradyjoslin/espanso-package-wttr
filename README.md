@@ -8,11 +8,11 @@ For more information about espanso packages, read the [documentation](https://es
 
 Available replacement examples:
 
-| replacement       | sample output                    | description                           |
-| ----------------- | -------------------------------- | ------------------------------------- |
-| `:wttrin`         | Spring, United States: ⛅️ +80°F | Current location's current weather    |
-| `:moonphase`      | 🌕                               | Current phase of the moon             |
-| `:wttrat/dallas/` | dallas: ☀️ +88°F                 | Current weather in specified location |
+| replacement           | sample output                    | description                           |
+| --------------------- | -------------------------------- | ------------------------------------- |
+| `:wttrin`             | Spring, United States: ⛅️ +80°F | Current location's current weather    |
+| `:moonphase`          | 🌕                               | Current phase of the moon             |
+| `:wttrat/{location}/` | dallas: ☀️ +88°F                 | Current weather in specified location |
 
 `:wttrat` uses [passive replacement](https://espanso.org/docs/passive-mode/), so it is triggered by highlighting the text and double tapping your configured passive key.
 
