@@ -11,7 +11,7 @@ Available replacement examples:
 ```text
   :wttr                 Spring, United States: ⛅️  +80°F
   :moonphase            🌕
-  :wttrat/dallas/      dallas: ☀️ +88°F
+  :wttrat/dallas/       dallas: ☀️ +88°F
 ```
 
 `:wttrat` uses [passive replacement](https://espanso.org/docs/passive-mode/), so it is triggered by highlighting the text and double tapping your configured passive key.
