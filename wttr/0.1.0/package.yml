@@ -4,7 +4,7 @@ name: wttr
 parent: default
 
 matches:
-  - trigger: ":wttr"
+  - trigger: ":wttrin"
     replace: "{{output}}"
     vars:
       - name: output
