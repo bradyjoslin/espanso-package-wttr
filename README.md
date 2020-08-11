@@ -18,7 +18,17 @@ Available replacement examples:
 
 ## Installation
 
-`espanso install wttr https://github.com/bradyjoslin/espanso-package-wttr --external`
+From [espanso hub](https://hub.espanso.org/packages/wttr/):
+
+```
+espanso install wttr
+```
+
+From source repo:
+
+```
+espanso install wttr https://github.com/bradyjoslin/espanso-package-wttr --external
+```
 
 ## Dependencies
 
