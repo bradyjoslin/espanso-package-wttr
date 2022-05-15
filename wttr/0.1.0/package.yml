@@ -10,7 +10,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'curl https://wttr.in?format="%l:+%c+%t\n"'
+          cmd: Invoke-WebRequest https://it.wttr.in/?format="%l:+%c+%t+%w\n" | Select-Object -Expand Content
 
   - trigger: ":moonphase"
     replace: "{{output}}"
@@ -18,13 +18,12 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: 'curl https://wttr.in?format="%m\n"'
+          cmd: Invoke-WebRequest https://wttr.in?format="%m\n" | Select-Object -Expand Content
 
   - trigger: ":wttrat"
     replace: "{{output}}"
-    passive_only: true
     vars:
       - name: output
         type: shell
         params:
-          cmd: 'curl https://wttr.in/$0?format="%l:+%c+%t\n"'
+          cmd: Invoke-WebRequest https://it.wttr.in/{{location}}?format="%l:+%c+%t+%w\n" | Select-Object -Expand Content
